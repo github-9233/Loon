@@ -5,7 +5,7 @@ http-request https://ocean.shuqireader.com/api/prizecenter/xapi/prize/manual/rec
 http-request https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/, requires-body=1,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js, tag=书旗小说视频
 http-request https://ocean.shuqireader.com/api/activity/v1/activity/pendant/lottery?, requires-body=1,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js, tag=书旗小说极速版30阅读(转移到每日任务)
 http-request https://ocean.shuqireader.com/api/ad/v1/api/prize/lottery, requires-body=1,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js, tag=书旗小说极速版视频(转移到每日任务) 
-http-request https://ocean.shuqireader.com/api/actstage/pendant/lottery/action, requires-body=1,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js tag=书旗小说30阅读奖励(转移到每日任务)
+http-request https://ocean.shuqireader.com/api/actstage/pendant/lottery/action, requires-body=1,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js, tag=书旗小说30阅读奖励(转移到每日任务)
 http-request https://ocean.shuqireader.com/api/activity/activity/v1/lottery/draw?, requires-body=1,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js, tag=书旗小说视频转转转抽奖数据
 http-request https://ocean.shuqireader.com/api/activity/activity/v1/lottery/info?, requires-body=1,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js, tag=书旗小说视频转转转信息
 http-request https://ocean.shuqireader.com/api/ad/adserver/v1/api/getAdInfo?, script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js, tag=书旗小说激励视频信息信息
