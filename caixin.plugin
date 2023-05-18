@@ -4,7 +4,7 @@
 #!author=@R·E https://t.me/Functional_Store_Hub
 
 [Script]
-http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) script-path=https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/js/caixin.js, timeout=10, tag=财新会员
+http-request ^https:\/\/gateway\.caixin\.com\/api\/ucenter\/appapi\/v1\/userinfo script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/gx/CaiXin.js, timeout=10, tag=财新会员
 
 [MITM]
 hostname = gateway.caixin.com
